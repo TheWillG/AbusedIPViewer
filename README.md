@@ -2,6 +2,8 @@
 
 Search and view abused IP addresses according to report age, confidence score, and count.
 
+![Preview](docs/preview.png)
+
 ## Running app locally
 
 1. `npm i` to install dependencies

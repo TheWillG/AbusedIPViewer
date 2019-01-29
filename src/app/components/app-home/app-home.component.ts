@@ -39,7 +39,6 @@ export class HomeComponent implements OnInit {
   }
 
   viewIP(ipAddress: string) {
-    console.log('ipAddress', ipAddress);
     this.router.navigate(['/', 'check', ipAddress]);
   }
 }

@@ -2,11 +2,11 @@ import * as blacklistActions from '../actions/blacklist';
 
 
 export interface State {
-  blacklist: any[];
+  blacklist: any;
 }
 
 const initialState: State = {
-  blacklist: [],
+  blacklist: {},
 };
 
 export function reducer(state = initialState, action: blacklistActions.Actions): State {
