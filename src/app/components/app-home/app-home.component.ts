@@ -6,6 +6,7 @@ import { blacklist } from '../../store/reducers/blacklist';
 import { BlackList } from '../../models/blacklist.model';
 import { AppService } from 'src/app/services/app.service';
 import { Router } from '@angular/router';
+import { MatSnackBar } from '@angular/material';
 
 @Component({
   selector: 'app-home',
@@ -15,11 +16,11 @@ import { Router } from '@angular/router';
 export class HomeComponent implements OnInit {
   blacklist$: Observable<any>;
   blacklist: BlackList = null;
-  private countMinimum;
-  private confidenceMinimum;
-  private maxAgeInDays;
+  private countMinimum = null;
+  private confidenceMinimum = null;
+  private maxAgeInDays = null;
 
-  constructor(private store: Store<any>, private appService: AppService, private router: Router) {
+  constructor(private store: Store<any>, private appService: AppService, private router: Router, private snackbarService: MatSnackBar) {
     this.blacklist$ = store.select(blacklist);
   }
 
@@ -30,12 +31,16 @@ export class HomeComponent implements OnInit {
     });
   }
 
-  fetchBlacklist() {
-    this.appService.fetchBlacklist({
-      countMinimum: this.countMinimum,
-      confidenceMinimum: this.confidenceMinimum,
-      maxAgeInDays: this.maxAgeInDays
-    });
+  async fetchBlacklist() {
+    try {
+      await this.appService.fetchBlacklist({
+        countMinimum: this.countMinimum,
+        confidenceMinimum: this.confidenceMinimum,
+        maxAgeInDays: this.maxAgeInDays
+      });
+    } catch (e) {
+      this.snackbarService.open('Failed to fetch blacklist, please try again.', 'Dismiss', { duration: 2000 });
+    }
   }
 
   viewIP(ipAddress: string) {

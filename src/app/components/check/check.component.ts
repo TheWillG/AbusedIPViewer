@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { AppService } from 'src/app/services/app.service';
 import { CheckData } from 'src/app/models/check.model';
+import { MatSnackBar } from '@angular/material';
 
 @Component({
   selector: 'app-check',
@@ -12,7 +13,7 @@ export class CheckComponent implements OnInit {
   ipAddress: string;
   checkData: CheckData;
 
-  constructor(private route: ActivatedRoute, private appService: AppService) { }
+  constructor(private route: ActivatedRoute, private appService: AppService, private snackbarService: MatSnackBar) { }
 
   ngOnInit() {
     if (!this.route.snapshot.params.ip) {
@@ -26,9 +27,8 @@ export class CheckComponent implements OnInit {
     try {
       const { data } = await this.appService.getCheck({ ipAddress: this.ipAddress });
       this.checkData = data;
-      console.log('this.checkData', this.checkData);
     } catch (e) {
-      console.log(`Failed to get check for IP ${this.ipAddress}`);
+      this.snackbarService.open('Failed to fetch IP check data, please try again', 'Dismiss', { duration: 2000 });
     }
   }
 

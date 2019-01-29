@@ -14,6 +14,7 @@ import { RouterModule } from '@angular/router';
 import { routes } from './app-routes';
 import { HomeComponent } from './components/app-home/app-home.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { MatSnackBarModule, MatToolbarModule } from '@angular/material';
 
 @NgModule({
   declarations: [AppComponent, CheckComponent, HomeComponent],
@@ -27,7 +28,9 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     NgxUIModule,
     FlexLayoutModule,
     ButtonModule,
-    HttpClientModule
+    MatSnackBarModule,
+    HttpClientModule,
+    MatToolbarModule
   ],
   providers: [Store, HttpClient],
   bootstrap: [AppComponent]
