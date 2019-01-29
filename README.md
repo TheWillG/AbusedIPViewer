@@ -3,6 +3,7 @@
 Search and view abused IP addresses according to report age, confidence score, and count.
 
 ![Preview](docs/preview.png)
+![Detail](docs/detail.png)
 
 ## Running app locally
 

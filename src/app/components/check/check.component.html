@@ -1,4 +1,5 @@
 <section class="top-section">
+  <ngx-button class="btn btn-primary" (click)="back()">Back to Blacklist Search</ngx-button>
   <h1>{{ checkData?.ipAddress }} IPv{{ checkData?.ipVersion }} ({{checkData?.domain}})</h1>
   <small><b>Last reported at:</b> {{ checkData?.lastReportedAt | date:'medium' }}</small>
 </section>

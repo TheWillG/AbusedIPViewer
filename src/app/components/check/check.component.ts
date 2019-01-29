@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { AppService } from 'src/app/services/app.service';
 import { CheckData } from 'src/app/models/check.model';
 import { MatSnackBar } from '@angular/material';
@@ -13,7 +13,12 @@ export class CheckComponent implements OnInit {
   ipAddress: string;
   checkData: CheckData;
 
-  constructor(private route: ActivatedRoute, private appService: AppService, private snackbarService: MatSnackBar) { }
+  constructor(
+    private route: ActivatedRoute,
+    private appService: AppService,
+    private snackbarService: MatSnackBar,
+    private router: Router
+  ) {}
 
   ngOnInit() {
     if (!this.route.snapshot.params.ip) {
@@ -28,8 +33,13 @@ export class CheckComponent implements OnInit {
       const { data } = await this.appService.getCheck({ ipAddress: this.ipAddress });
       this.checkData = data;
     } catch (e) {
-      this.snackbarService.open('Failed to fetch IP check data, please try again', 'Dismiss', { duration: 2000 });
+      this.snackbarService.open('Failed to fetch IP check data, please try again', 'Dismiss', {
+        duration: 2000
+      });
     }
   }
 
+  back(): void {
+    this.router.navigate(['/']);
+  }
 }
