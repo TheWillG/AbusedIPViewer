@@ -1,0 +1,31 @@
+<section class="search-section">
+  <h2>Search Public IP Blacklist</h2>
+  <div fxLayout="row" fxLayoutAlign="space-between center">
+    <div fxFlex="20">
+      <ngx-input type="number" [autofocus]="true" [(ngModel)]="countMinimum" [hint]="'Minimum Count'"></ngx-input>
+    </div>
+    <div fxFlex="20">
+      <ngx-input type="number" [autofocus]="true" [(ngModel)]="maxAgeInDays" [hint]="'Max Age In Days'"></ngx-input>
+    </div>
+    <div fxFlex="20">
+      <ngx-input type="number" [autofocus]="true" [(ngModel)]="confidenceMinimum" [hint]="'Confidence Minimum %'" [max]="100"></ngx-input>
+    </div>
+    <div fxFlex="20">
+      <ngx-button class="btn btn-primary" (click)="fetchBlacklist()">Search</ngx-button>
+    </div>
+  </div>
+</section>
+<section class="view-section">
+  <h2>Blacklist Viewer</h2>
+  <ngx-datatable #mydatatable class="material" [headerHeight]="50" [limit]="5" [columnMode]="'force'" [footerHeight]="50"
+    [rowHeight]="'auto'" [trackByProp]="'updated'" [rows]="blacklist">
+    <ngx-datatable-column name="IP Address" prop="ipAddress"></ngx-datatable-column>
+    <ngx-datatable-column name="# Reports" prop="totalReports"></ngx-datatable-column>
+    <ngx-datatable-column name="Abuse Confidence Score" prop="abuseConfidenceScore"></ngx-datatable-column>
+    <ngx-datatable-column name="Detail" prop="ipAddress">
+      <ng-template let-value="value" let-row="row" ngx-datatable-cell-template>
+        <ngx-button class="btn btn-primary" (click)="viewIP(value)">View</ngx-button>
+      </ng-template>
+    </ngx-datatable-column>
+  </ngx-datatable>
+</section>

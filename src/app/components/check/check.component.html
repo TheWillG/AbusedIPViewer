@@ -1,0 +1,24 @@
+<section class="top-section">
+  <h1>{{ checkData?.ipAddress }} IPv{{ checkData?.ipVersion }} ({{checkData?.domain}})</h1>
+  <small><b>Last reported at:</b> {{ checkData?.lastReportedAt | date:'medium' }}</small>
+</section>
+
+<section class="details-section">
+  <h2>Details</h2>
+  <div><b>Abuse Confidence Score:</b> {{ checkData?.abuseConfidenceScore }}%</div>
+  <div><b>Internet Service Provider:</b> {{ checkData?.isp }}</div>
+  <div><b>Country:</b> {{ checkData?.countryName }}</div>
+  <div><b>Public:</b> {{ checkData?.isPublic ? 'Yes' : 'No' }}</div>
+  <div><b>Whitelisted:</b> {{ checkData?.whitelisted ? 'Yes' : 'No' }}</div>
+  <div><b>Usage Type:</b> {{ checkData?.usageType }}</div>
+</section>
+
+<section class="reports-section">
+  <h2>Reports</h2>
+  <ngx-datatable #reportsdatatable class="material" [headerHeight]="50" [limit]="5" [columnMode]="'force'"
+    [footerHeight]="50" [rowHeight]="'auto'" [trackByProp]="'updated'" [rows]="checkData?.reports">
+    <ngx-datatable-column name="Date Reported" prop="reportedAt"></ngx-datatable-column>
+    <ngx-datatable-column name="Reporter Country" prop="reporterCountryName"></ngx-datatable-column>
+    <ngx-datatable-column name="Comment" prop="comment"></ngx-datatable-column>
+  </ngx-datatable>
+</section>
