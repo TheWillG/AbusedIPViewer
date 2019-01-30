@@ -6,6 +6,7 @@
     "start": "ng serve",
     "server": "node server/main.js",
     "dev:server": "nodemon server/main.js",
+    "dev:server:mock": "nodemon server/main-mock.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",

@@ -14,7 +14,7 @@ import { RouterModule } from '@angular/router';
 import { routes } from './app-routes';
 import { HomeComponent } from './components/app-home/app-home.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { MatSnackBarModule, MatToolbarModule } from '@angular/material';
+import { MatSnackBarModule, MatToolbarModule, MatButtonModule, MatFormFieldModule, MatInputModule } from '@angular/material';
 
 @NgModule({
   declarations: [AppComponent, CheckComponent, HomeComponent],
@@ -30,7 +30,10 @@ import { MatSnackBarModule, MatToolbarModule } from '@angular/material';
     ButtonModule,
     MatSnackBarModule,
     HttpClientModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatButtonModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   providers: [Store, HttpClient],
   bootstrap: [AppComponent]

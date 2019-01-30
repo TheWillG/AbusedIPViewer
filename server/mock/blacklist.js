@@ -3,365 +3,132 @@ module.exports = {
     generatedAt: '2018-12-21T16:00:04+00:00'
   },
   data: [
-    {
-      ipAddress: '5.188.10.179',
-      totalReports: 560,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '185.222.209.14',
-      totalReports: 529,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '191.96.249.183',
-      totalReports: 325,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '5.188.10.179',
-      totalReports: 560,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '185.222.209.14',
-      totalReports: 529,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '191.96.249.183',
-      totalReports: 325,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '5.188.10.179',
-      totalReports: 560,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '185.222.209.14',
-      totalReports: 529,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '191.96.249.183',
-      totalReports: 325,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '5.188.10.179',
-      totalReports: 560,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '185.222.209.14',
-      totalReports: 529,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '191.96.249.183',
-      totalReports: 325,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '5.188.10.179',
-      totalReports: 560,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '185.222.209.14',
-      totalReports: 529,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '191.96.249.183',
-      totalReports: 325,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '5.188.10.179',
-      totalReports: 560,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '185.222.209.14',
-      totalReports: 529,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '191.96.249.183',
-      totalReports: 325,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '5.188.10.179',
-      totalReports: 560,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '185.222.209.14',
-      totalReports: 529,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '191.96.249.183',
-      totalReports: 325,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '5.188.10.179',
-      totalReports: 560,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '185.222.209.14',
-      totalReports: 529,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '191.96.249.183',
-      totalReports: 325,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '5.188.10.179',
-      totalReports: 560,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '185.222.209.14',
-      totalReports: 529,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '191.96.249.183',
-      totalReports: 325,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '5.188.10.179',
-      totalReports: 560,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '185.222.209.14',
-      totalReports: 529,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '191.96.249.183',
-      totalReports: 325,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '5.188.10.179',
-      totalReports: 560,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '185.222.209.14',
-      totalReports: 529,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '191.96.249.183',
-      totalReports: 325,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '5.188.10.179',
-      totalReports: 560,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '185.222.209.14',
-      totalReports: 529,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '191.96.249.183',
-      totalReports: 325,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '5.188.10.179',
-      totalReports: 560,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '185.222.209.14',
-      totalReports: 529,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '191.96.249.183',
-      totalReports: 325,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '5.188.10.179',
-      totalReports: 560,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '185.222.209.14',
-      totalReports: 529,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '191.96.249.183',
-      totalReports: 325,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '5.188.10.179',
-      totalReports: 560,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '185.222.209.14',
-      totalReports: 529,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '191.96.249.183',
-      totalReports: 325,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '5.188.10.179',
-      totalReports: 560,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '185.222.209.14',
-      totalReports: 529,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '191.96.249.183',
-      totalReports: 325,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '5.188.10.179',
-      totalReports: 560,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '185.222.209.14',
-      totalReports: 529,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '191.96.249.183',
-      totalReports: 325,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '5.188.10.179',
-      totalReports: 560,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '185.222.209.14',
-      totalReports: 529,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '191.96.249.183',
-      totalReports: 325,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '5.188.10.179',
-      totalReports: 560,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '185.222.209.14',
-      totalReports: 529,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '191.96.249.183',
-      totalReports: 325,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '5.188.10.179',
-      totalReports: 560,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '185.222.209.14',
-      totalReports: 529,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '191.96.249.183',
-      totalReports: 325,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '5.188.10.179',
-      totalReports: 560,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '185.222.209.14',
-      totalReports: 529,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '191.96.249.183',
-      totalReports: 325,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '5.188.10.179',
-      totalReports: 560,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '185.222.209.14',
-      totalReports: 529,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '191.96.249.183',
-      totalReports: 325,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '5.188.10.179',
-      totalReports: 560,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '185.222.209.14',
-      totalReports: 529,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '191.96.249.183',
-      totalReports: 325,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '5.188.10.179',
-      totalReports: 560,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '185.222.209.14',
-      totalReports: 529,
-      abuseConfidenceScore: 100
-    },
-    {
-      ipAddress: '191.96.249.183',
-      totalReports: 325,
-      abuseConfidenceScore: 100
-    }
+    { ipAddress: '191.96.249.23', totalReports: 2832, abuseConfidenceScore: '100' },
+    { ipAddress: '88.214.26.49', totalReports: 2626, abuseConfidenceScore: '100' },
+    { ipAddress: '36.156.24.96', totalReports: 2605, abuseConfidenceScore: '100' },
+    { ipAddress: '223.111.139.244', totalReports: 2566, abuseConfidenceScore: '100' },
+    { ipAddress: '122.226.181.166', totalReports: 2497, abuseConfidenceScore: '100' },
+    { ipAddress: '223.111.139.210', totalReports: 2497, abuseConfidenceScore: '100' },
+    { ipAddress: '115.238.245.4', totalReports: 2492, abuseConfidenceScore: '100' },
+    { ipAddress: '122.226.181.165', totalReports: 2451, abuseConfidenceScore: '100' },
+    { ipAddress: '122.226.181.164', totalReports: 2441, abuseConfidenceScore: '100' },
+    { ipAddress: '115.238.245.2', totalReports: 2418, abuseConfidenceScore: '100' },
+    { ipAddress: '36.156.24.95', totalReports: 2405, abuseConfidenceScore: '100' },
+    { ipAddress: '185.211.245.170', totalReports: 2396, abuseConfidenceScore: '100' },
+    { ipAddress: '223.111.139.211', totalReports: 2374, abuseConfidenceScore: '100' },
+    { ipAddress: '122.226.181.167', totalReports: 2355, abuseConfidenceScore: '100' },
+    { ipAddress: '36.156.24.94', totalReports: 2332, abuseConfidenceScore: '100' },
+    { ipAddress: '61.184.247.8', totalReports: 2329, abuseConfidenceScore: '100' },
+    { ipAddress: '223.111.139.247', totalReports: 2308, abuseConfidenceScore: '100' },
+    { ipAddress: '36.156.24.97', totalReports: 2301, abuseConfidenceScore: '100' },
+    { ipAddress: '61.184.247.3', totalReports: 2279, abuseConfidenceScore: '100' },
+    { ipAddress: '218.92.1.144', totalReports: 2213, abuseConfidenceScore: '100' },
+    { ipAddress: '61.184.247.11', totalReports: 2211, abuseConfidenceScore: '100' },
+    { ipAddress: '61.184.247.4', totalReports: 2206, abuseConfidenceScore: '100' },
+    { ipAddress: '185.222.209.40', totalReports: 2180, abuseConfidenceScore: '100' },
+    { ipAddress: '118.123.15.142', totalReports: 2146, abuseConfidenceScore: '100' },
+    { ipAddress: '61.184.247.6', totalReports: 2139, abuseConfidenceScore: '100' },
+    { ipAddress: '191.96.249.43', totalReports: 2131, abuseConfidenceScore: '100' },
+    { ipAddress: '185.211.245.198', totalReports: 1828, abuseConfidenceScore: '100' },
+    { ipAddress: '125.65.42.192', totalReports: 1802, abuseConfidenceScore: '100' },
+    { ipAddress: '36.156.24.98', totalReports: 1770, abuseConfidenceScore: '100' },
+    { ipAddress: '218.92.1.147', totalReports: 1634, abuseConfidenceScore: '100' },
+    { ipAddress: '218.92.1.146', totalReports: 1623, abuseConfidenceScore: '100' },
+    { ipAddress: '116.206.196.49', totalReports: 1622, abuseConfidenceScore: '100' },
+    { ipAddress: '114.143.229.219', totalReports: 1604, abuseConfidenceScore: '100' },
+    { ipAddress: '115.238.245.8', totalReports: 1602, abuseConfidenceScore: '100' },
+    { ipAddress: '69.90.223.232', totalReports: 1573, abuseConfidenceScore: '100' },
+    { ipAddress: '36.111.35.10', totalReports: 1536, abuseConfidenceScore: '100' },
+    { ipAddress: '123.127.107.70', totalReports: 1509, abuseConfidenceScore: '100' },
+    { ipAddress: '118.192.9.10', totalReports: 1423, abuseConfidenceScore: '100' },
+    { ipAddress: '36.156.24.99', totalReports: 1407, abuseConfidenceScore: '100' },
+    { ipAddress: '218.92.1.152', totalReports: 1361, abuseConfidenceScore: '100' },
+    { ipAddress: '218.92.1.158', totalReports: 1341, abuseConfidenceScore: '100' },
+    { ipAddress: '218.92.1.142', totalReports: 1331, abuseConfidenceScore: '100' },
+    { ipAddress: '122.228.19.79', totalReports: 1323, abuseConfidenceScore: '100' },
+    { ipAddress: '218.92.1.157', totalReports: 1309, abuseConfidenceScore: '100' },
+    { ipAddress: '218.92.1.145', totalReports: 1298, abuseConfidenceScore: '100' },
+    { ipAddress: '185.176.27.6', totalReports: 1260, abuseConfidenceScore: '100' },
+    { ipAddress: '222.186.30.71', totalReports: 1245, abuseConfidenceScore: '100' },
+    { ipAddress: '185.176.27.2', totalReports: 1236, abuseConfidenceScore: '100' },
+    { ipAddress: '89.248.172.208', totalReports: 1224, abuseConfidenceScore: '100' },
+    { ipAddress: '185.176.27.246', totalReports: 1218, abuseConfidenceScore: '100' },
+    { ipAddress: '122.228.19.80', totalReports: 1213, abuseConfidenceScore: '100' },
+    { ipAddress: '129.213.120.63', totalReports: 1203, abuseConfidenceScore: '100' },
+    { ipAddress: '218.92.1.151', totalReports: 1153, abuseConfidenceScore: '100' },
+    { ipAddress: '78.128.112.62', totalReports: 1150, abuseConfidenceScore: '100' },
+    { ipAddress: '176.119.4.56', totalReports: 1142, abuseConfidenceScore: '100' },
+    { ipAddress: '176.119.4.73', totalReports: 1133, abuseConfidenceScore: '100' },
+    { ipAddress: '120.52.152.16', totalReports: 1127, abuseConfidenceScore: '100' },
+    { ipAddress: '185.211.245.157', totalReports: 1127, abuseConfidenceScore: '100' },
+    { ipAddress: '185.208.209.6', totalReports: 1120, abuseConfidenceScore: '100' },
+    { ipAddress: '218.92.1.155', totalReports: 1111, abuseConfidenceScore: '100' },
+    { ipAddress: '176.119.4.9', totalReports: 1110, abuseConfidenceScore: '100' },
+    { ipAddress: '112.85.42.237', totalReports: 1107, abuseConfidenceScore: '100' },
+    { ipAddress: '185.211.245.197', totalReports: 1084, abuseConfidenceScore: '100' },
+    { ipAddress: '5.188.206.22', totalReports: 1074, abuseConfidenceScore: '100' },
+    { ipAddress: '218.92.1.148', totalReports: 1065, abuseConfidenceScore: '100' },
+    { ipAddress: '176.119.4.53', totalReports: 1065, abuseConfidenceScore: '100' },
+    { ipAddress: '120.52.152.18', totalReports: 1061, abuseConfidenceScore: '100' },
+    { ipAddress: '185.211.245.168', totalReports: 1054, abuseConfidenceScore: '100' },
+    { ipAddress: '211.215.21.247', totalReports: 1044, abuseConfidenceScore: '100' },
+    { ipAddress: '82.232.251.153', totalReports: 1021, abuseConfidenceScore: '100' },
+    { ipAddress: '125.64.94.200', totalReports: 973, abuseConfidenceScore: '100' },
+    { ipAddress: '78.128.112.54', totalReports: 966, abuseConfidenceScore: '100' },
+    { ipAddress: '125.64.94.197', totalReports: 963, abuseConfidenceScore: '100' },
+    { ipAddress: '185.176.27.66', totalReports: 962, abuseConfidenceScore: '100' },
+    { ipAddress: '185.176.27.50', totalReports: 961, abuseConfidenceScore: '100' },
+    { ipAddress: '185.176.27.62', totalReports: 961, abuseConfidenceScore: '100' },
+    { ipAddress: '78.128.112.46', totalReports: 939, abuseConfidenceScore: '100' },
+    { ipAddress: '185.176.27.38', totalReports: 934, abuseConfidenceScore: '100' },
+    { ipAddress: '185.176.27.30', totalReports: 925, abuseConfidenceScore: '100' },
+    { ipAddress: '185.222.210.45', totalReports: 918, abuseConfidenceScore: '100' },
+    { ipAddress: '185.176.27.26', totalReports: 916, abuseConfidenceScore: '100' },
+    { ipAddress: '185.176.27.14', totalReports: 911, abuseConfidenceScore: '100' },
+    { ipAddress: '125.64.94.201', totalReports: 900, abuseConfidenceScore: '100' },
+    { ipAddress: '185.176.26.15', totalReports: 898, abuseConfidenceScore: '100' },
+    { ipAddress: '185.176.27.98', totalReports: 891, abuseConfidenceScore: '100' },
+    { ipAddress: '185.176.26.51', totalReports: 880, abuseConfidenceScore: '100' },
+    { ipAddress: '58.242.83.35', totalReports: 870, abuseConfidenceScore: '100' },
+    { ipAddress: '185.176.27.34', totalReports: 858, abuseConfidenceScore: '100' },
+    { ipAddress: '185.176.26.9', totalReports: 857, abuseConfidenceScore: '100' },
+    { ipAddress: '185.176.26.33', totalReports: 855, abuseConfidenceScore: '100' },
+    { ipAddress: '92.63.194.38', totalReports: 854, abuseConfidenceScore: '100' },
+    { ipAddress: '92.63.194.28', totalReports: 854, abuseConfidenceScore: '100' },
+    { ipAddress: '92.63.194.18', totalReports: 849, abuseConfidenceScore: '100' },
+    { ipAddress: '92.63.194.33', totalReports: 848, abuseConfidenceScore: '100' },
+    { ipAddress: '92.63.194.23', totalReports: 842, abuseConfidenceScore: '100' },
+    { ipAddress: '92.63.194.43', totalReports: 832, abuseConfidenceScore: '100' },
+    { ipAddress: '178.73.215.171', totalReports: 824, abuseConfidenceScore: '100' },
+    { ipAddress: '167.99.43.65', totalReports: 791, abuseConfidenceScore: '100' },
+    { ipAddress: '149.202.54.124', totalReports: 778, abuseConfidenceScore: '100' },
+    { ipAddress: '36.156.24.93', totalReports: 757, abuseConfidenceScore: '100' },
+    { ipAddress: '88.214.26.54', totalReports: 755, abuseConfidenceScore: '100' },
+    { ipAddress: '58.242.83.38', totalReports: 751, abuseConfidenceScore: '100' },
+    { ipAddress: '60.251.146.74', totalReports: 750, abuseConfidenceScore: '100' },
+    { ipAddress: '12.133.183.250', totalReports: 744, abuseConfidenceScore: '100' },
+    { ipAddress: '185.255.31.2', totalReports: 732, abuseConfidenceScore: '100' },
+    { ipAddress: '201.219.176.123', totalReports: 730, abuseConfidenceScore: '100' },
+    { ipAddress: '92.63.194.8', totalReports: 712, abuseConfidenceScore: '100' },
+    { ipAddress: '190.144.161.11', totalReports: 708, abuseConfidenceScore: '100' },
+    { ipAddress: '185.143.221.105', totalReports: 704, abuseConfidenceScore: '100' },
+    { ipAddress: '41.75.113.170', totalReports: 693, abuseConfidenceScore: '100' },
+    { ipAddress: '218.92.1.143', totalReports: 689, abuseConfidenceScore: '100' },
+    { ipAddress: '159.65.5.209', totalReports: 685, abuseConfidenceScore: '100' },
+    { ipAddress: '58.242.83.39', totalReports: 683, abuseConfidenceScore: '100' },
+    { ipAddress: '109.248.9.4', totalReports: 675, abuseConfidenceScore: '100' },
+    { ipAddress: '58.242.83.34', totalReports: 671, abuseConfidenceScore: '100' },
+    { ipAddress: '177.206.128.131', totalReports: 667, abuseConfidenceScore: '100' },
+    { ipAddress: '60.248.110.52', totalReports: 667, abuseConfidenceScore: '100' },
+    { ipAddress: '84.254.0.120', totalReports: 660, abuseConfidenceScore: '100' },
+    { ipAddress: '185.143.221.106', totalReports: 659, abuseConfidenceScore: '100' },
+    { ipAddress: '185.53.91.24', totalReports: 652, abuseConfidenceScore: '100' },
+    { ipAddress: '110.10.129.226', totalReports: 650, abuseConfidenceScore: '100' },
+    { ipAddress: '185.176.26.66', totalReports: 637, abuseConfidenceScore: '100' },
+    { ipAddress: '206.189.167.33', totalReports: 633, abuseConfidenceScore: '100' },
+    { ipAddress: '31.192.108.68', totalReports: 632, abuseConfidenceScore: '100' },
+    { ipAddress: '200.69.250.253', totalReports: 629, abuseConfidenceScore: '100' },
+    { ipAddress: '185.254.123.3', totalReports: 625, abuseConfidenceScore: '100' },
+    { ipAddress: '185.53.88.19', totalReports: 623, abuseConfidenceScore: '100' }
   ]
 };

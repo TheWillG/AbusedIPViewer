@@ -3,9 +3,7 @@ const request = require('request-promise');
 const morgan = require('morgan');
 const cors = require('cors');
 const app = express();
-const { port, host, mock, apiBaseUrl, apiKey } = require('../server/config');
-const mockBlacklist = require('../server/mock/blacklist');
-const mockCheck = require('../server/mock/check');
+const { port, host, apiBaseUrl, apiKey } = require('../server/config');
 
 app.use(morgan('combined'));
 app.use(cors());
@@ -14,9 +12,6 @@ app.get('/blacklist', async (req, res) => {
   const { countMinimum, maxAgeInDays, confidenceMinimum } = req.query;
   if (!countMinimum || !maxAgeInDays || !confidenceMinimum) {
     return res.status(400).send('Invalid input.');
-  }
-  if (mock) {
-    return res.status(200).send(mockBlacklist);
   }
   try {
     const requestOptions = {
@@ -40,9 +35,6 @@ app.get('/check', async (req, res) => {
   const { ipAddress } = req.query;
   if (!ipAddress) {
     return res.status(400).send('IP address required.');
-  }
-  if (mock) {
-    return res.status(200).send(mockCheck);
   }
   try {
     const requestOptions = {

@@ -1,17 +1,23 @@
 <section class="search-section">
   <h2>Search Public IP Blacklist</h2>
-  <div fxLayout="row" fxLayoutAlign="space-between center">
+  <div fxLayout="row" fxLayoutAlign="space-around center">
     <div fxFlex="20">
-      <ngx-input type="number" [autofocus]="true" [(ngModel)]="countMinimum" [hint]="'Minimum Count'"></ngx-input>
+      <mat-form-field>
+        <input matInput placeholder="Minimum Count" type="number" [(ngModel)]="countMinimum">
+      </mat-form-field>
     </div>
     <div fxFlex="20">
-      <ngx-input type="number" [autofocus]="true" [(ngModel)]="maxAgeInDays" [hint]="'Max Age In Days'"></ngx-input>
+      <mat-form-field>
+        <input matInput placeholder="Max Age In Days" type="number" [(ngModel)]="maxAgeInDays">
+      </mat-form-field>
     </div>
     <div fxFlex="20">
-      <ngx-input type="number" [autofocus]="true" [(ngModel)]="confidenceMinimum" [hint]="'Confidence Minimum %'" [max]="100"></ngx-input>
+      <mat-form-field>
+        <input matInput placeholder="Confidence Minimum %" type="number" [(ngModel)]="confidenceMinimum">
+      </mat-form-field>
     </div>
     <div fxFlex="20">
-      <ngx-button class="btn btn-primary" (click)="fetchBlacklist()">Search</ngx-button>
+      <button mat-raised-button color="primary" (click)="fetchBlacklist()">Search</button>
     </div>
   </div>
 </section>
@@ -24,7 +30,7 @@
     <ngx-datatable-column name="Abuse Confidence Score" prop="abuseConfidenceScore"></ngx-datatable-column>
     <ngx-datatable-column name="Detail" prop="ipAddress">
       <ng-template let-value="value" let-row="row" ngx-datatable-cell-template>
-        <ngx-button class="btn btn-primary" (click)="viewIP(value)">View</ngx-button>
+        <button mat-button color="primary" (click)="viewIP(value)">View</button>
       </ng-template>
     </ngx-datatable-column>
   </ngx-datatable>

@@ -1,17 +1,16 @@
 module.exports = {
   data: {
-    ipAddress: '118.25.6.39',
+    ipAddress: '191.96.249.23',
     isPublic: true,
     ipVersion: 4,
     isWhitelisted: false,
     abuseConfidenceScore: 100,
-    countryCode: 'CN',
-    countryName: 'China',
+    countryCode: 'NL',
     usageType: 'Data Center/Web Hosting/Transit',
-    isp: 'Tencent Cloud Computing (Beijing) Co. Ltd',
-    domain: 'tencent.com',
-    totalReports: 1,
-    lastReportedAt: '2018-12-20T20:55:14+00:00',
+    isp: 'DMZHost Limited',
+    domain: 'dmzhost.co',
+    totalReports: 2706,
+    lastReportedAt: '2019-01-12T09:59:15+00:00',
     reports: [
       {
         reportedAt: '2018-12-20T20:55:14+00:00',

@@ -1,5 +1,8 @@
+<section>
+  <button mat-raised-button color="primary" (click)="back()">Back to Blacklist Search</button>
+</section>
+
 <section class="top-section">
-  <ngx-button class="btn btn-primary" (click)="back()">Back to Blacklist Search</ngx-button>
   <h1>{{ checkData?.ipAddress }} IPv{{ checkData?.ipVersion }} ({{checkData?.domain}})</h1>
   <small><b>Last reported at:</b> {{ checkData?.lastReportedAt | date:'medium' }}</small>
 </section>
@@ -18,7 +21,11 @@
   <h2>Reports</h2>
   <ngx-datatable #reportsdatatable class="material" [headerHeight]="50" [limit]="5" [columnMode]="'force'"
     [footerHeight]="50" [rowHeight]="'auto'" [trackByProp]="'updated'" [rows]="checkData?.reports">
-    <ngx-datatable-column name="Date Reported" prop="reportedAt"></ngx-datatable-column>
+    <ngx-datatable-column name="Date Reported" prop="reportedAt">
+      <ng-template let-value="value" ngx-datatable-cell-template>
+        {{ value | date:'medium' }}
+      </ng-template>
+    </ngx-datatable-column>
     <ngx-datatable-column name="Reporter Country" prop="reporterCountryName"></ngx-datatable-column>
     <ngx-datatable-column name="Comment" prop="comment"></ngx-datatable-column>
   </ngx-datatable>
