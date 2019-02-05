@@ -10,4 +10,6 @@ before_script:
   - npm install -g @angular/cli
 script:
 - ng lint
-- ng build --base-href https://thewillg.github.io/AbuisedIPViewer/
+- ng test
+- npm run test:server
+- ng build --base-href https://thewillg.github.io/AbusedIPViewer/

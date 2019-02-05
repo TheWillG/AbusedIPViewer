@@ -26,3 +26,5 @@ app.get('/check', async (req, res) => {
 });
 
 app.listen(port, host, () => console.log(`App listening on port ${port}!`));
+
+module.exports = app;
